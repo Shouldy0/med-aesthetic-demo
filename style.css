@@ -26,10 +26,6 @@
   --gold-soft: #d8b74c;
   --gold-light: #f5eed3;
   --gold-accent-border: rgba(201, 162, 39, 0.28);
-
-  /* WhatsApp Brand Color (High-Converting in UK) */
-  --whatsapp-green: #25d366;
-  --whatsapp-deep: #1e9f4d;
   
   /* Text & Ink */
   --ink-primary: #123b2d;
@@ -230,18 +226,6 @@ p {
 .btn-champagne:hover {
   background-color: var(--gold-soft);
   box-shadow: 0 8px 24px -4px rgba(201, 162, 39, 0.4);
-}
-
-.btn-whatsapp {
-  background-color: #20b057;
-  color: var(--surface-white);
-  border-color: #1ea04f;
-  font-weight: 700;
-}
-
-.btn-whatsapp:hover {
-  background-color: #179344;
-  box-shadow: 0 8px 24px -4px rgba(37, 211, 102, 0.45);
 }
 
 .btn-outline {
@@ -448,26 +432,7 @@ p {
 .header-cta-desktop {
   display: flex;
   align-items: center;
-  gap: 12px;
-}
-
-.header-whatsapp-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background-color: rgba(37, 211, 102, 0.14);
-  color: #178a40;
-  border: 1px solid rgba(37, 211, 102, 0.35);
-  font-size: 0.82rem;
-  font-weight: 700;
-  padding: 7px 12px;
-  border-radius: var(--radius-btn);
-  transition: var(--transition-smooth);
-}
-
-.header-whatsapp-pill:hover {
-  background-color: #20b057;
-  color: #fff;
+  gap: 16px;
 }
 
 .header-phone {
@@ -2294,40 +2259,34 @@ p {
 }
 
 .sticky-bar-inner {
-  display: grid;
-  grid-template-columns: 1.15fr 1fr 1fr;
-  gap: 8px;
+  display: flex;
+  width: 100%;
 }
 
 .btn-sticky {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
-  padding: 11px 8px;
+  gap: 10px;
+  padding: 13px 20px;
   border-radius: var(--radius-btn);
-  font-size: 0.82rem;
+  font-size: 0.96rem;
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
   border: 1px solid transparent;
   white-space: nowrap;
-}
-
-.btn-sticky-wa {
-  background-color: #20b057;
-  color: #fff;
+  width: 100%;
 }
 
 .btn-sticky-call {
-  background-color: rgba(255, 255, 255, 0.12);
-  color: var(--surface-white);
-  border-color: rgba(255, 255, 255, 0.22);
-}
-
-.btn-sticky-book {
   background-color: var(--gold-champagne);
   color: var(--forest-dark);
+  box-shadow: 0 4px 14px rgba(201, 162, 39, 0.35);
+}
+
+.btn-sticky-call:hover {
+  background-color: var(--gold-soft);
 }
 
 /* --------------------------------------------------------------------------

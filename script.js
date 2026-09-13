@@ -6,8 +6,7 @@
    3. 30-Second Skin Assessment Recommender Mini-Tool
    4. Appointment Day & Time Slot Picker
    5. Treatwell Reviews rendering
-   6. WhatsApp 1-Tap Booking Integration
-   7. Sticky Mobile Bar & Mobile Navigation
+   6. Sticky Mobile Bar & Mobile Navigation
    ========================================================================== */
 
 // ---- 1. Services Data with Categories ----
@@ -469,10 +468,7 @@ function initBookingForm() {
         <p>Thank you, <strong>${name}</strong>! We have captured your request for <strong>${treatment}</strong> (${selectedDay} · ${selectedTime}).</p>
         <p style="margin-top: 8px; font-size: 0.88rem; opacity: 0.9;">In this demo proposal, submissions demonstrate instant appointment routing. In live deployment, this immediately syncs with the clinic's calendar or CRM.</p>
         <div style="margin-top: 14px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-          <a href="https://wa.me/447308438403?text=Hi%20MED%20Aesthetic,%20I%20just%20submitted%20a%20booking%20request%20for%20${encodeURIComponent(treatment)}" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">
-            <span>Confirm Faster on WhatsApp</span>
-          </a>
-          <a href="tel:07308438403" class="btn btn-ghost-light btn-sm">
+          <a href="tel:07308438403" class="btn btn-champagne btn-sm">
             <span>Call 07308 438403</span>
           </a>
         </div>
