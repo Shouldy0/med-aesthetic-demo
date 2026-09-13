@@ -1,166 +1,973 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MED Aesthetic Clinic UK — Facials & Aesthetic Treatments in Brixton, London | Unofficial Demo</title>
-<meta name="description" content="MED Aesthetic Clinic UK — modern non-surgical aesthetic clinic in Brixton, London SW9. Specialist facials and skin treatments, 7 days a week. [UNOFFICIAL DEMO SITE]">
-<meta property="og:title" content="MED Aesthetic Clinic UK — Brixton, London">
-<meta property="og:description" content="Specialist facials and aesthetic skin treatments in Brixton, London. Book today. [Unofficial demo]">
-<meta property="og:type" content="website">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MED Aesthetic Clinic UK — Non-Surgical Aesthetics & Facials in Brixton, London SW9</title>
+  <meta name="description" content="MED Aesthetic Clinic UK — high-end non-surgical aesthetic skin clinic in Brixton, London SW9. Bespoke facials, barrier repair, and advanced skincare open 7 days a week. [UNOFFICIAL DEMO]">
+  <meta property="og:title" content="MED Aesthetic Clinic UK — Brixton, London">
+  <meta property="og:description" content="Bespoke facials and specialist aesthetic skin treatments in Brixton, London. Book your consultation today. [Unofficial demo]">
+  <meta property="og:type" content="website">
+
+  <!-- Typography: Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="site-header">
-  <div class="container header-inner">
-    <a class="brand" href="#top">
-      <span class="brand-mark">MA</span>
-      <span class="brand-text">MED <strong>Aesthetic</strong><small>Clinic UK</small></span>
-    </a>
-    <nav class="main-nav" aria-label="Main">
-      <a href="#services">Treatments</a>
-      <a href="#why">Why us</a>
-      <a href="#process">Process</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact" class="btn btn-outline btn-sm">Book now</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
-  </div>
-</header>
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Clinic update">
+    <div class="container announcement-inner">
+      <span class="announcement-item">📍 Overton Road, Brixton SW9 7AP</span>
+      <span class="announcement-divider" aria-hidden="true">•</span>
+      <span class="announcement-item">🕘 Open 7 Days · Late Appointments to 20:00</span>
+      <span class="announcement-divider" aria-hidden="true">•</span>
+      <span class="announcement-item">★ 5.0 Star Rated on Treatwell</span>
+      <span class="announcement-demo-tag">Unofficial Design Proposal</span>
+    </div>
+  </aside>
 
-<main id="top">
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="MED Aesthetic Clinic UK - Home">
+        <span class="brand-monogram">MA</span>
+        <span class="brand-copy">
+          <span class="brand-title">MED <strong>AESTHETIC</strong></span>
+          <span class="brand-subtitle">CLINIC UK · BRIXTON</span>
+        </span>
+      </a>
 
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">Non-surgical aesthetics · Brixton, London SW9</p>
-        <h1>Skin care that feels as good as it looks</h1>
-        <p class="lede">Specialist facials and aesthetic treatments, delivered by a team that listens. Relaxed, honest advice — no pressure, no over-promising.</p>
-        <div class="hero-actions">
-          <a href="tel:07308438403" class="btn btn-primary btn-lg">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            Call 07308 438403
+      <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+        <a href="#services" class="nav-link">Treatments</a>
+        <a href="#skin-assessment" class="nav-link">Skin Quiz</a>
+        <a href="#why" class="nav-link">Why Us</a>
+        <a href="#gallery" class="nav-link">Results</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#instagram" class="nav-link">Instagram</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <div class="nav-actions-mobile">
+          <a href="https://wa.me/447308438403?text=Hi%20MED%20Aesthetic%20Clinic,%20I'd%20like%20to%20enquire%20about%20booking%20a%20consultation." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">
+            <span>WhatsApp Us</span>
           </a>
-          <a href="#contact" class="btn btn-light btn-lg">Request a consultation</a>
+          <a href="tel:07308438403" class="btn btn-outline btn-sm">
+            <span>Call 07308 438403</span>
+          </a>
+          <a href="#contact" class="btn btn-primary btn-sm">Book Consultation</a>
         </div>
-        <p class="hero-note">Open 7 days · 09:00–20:00 (Sun 12:00–17:00)</p>
+      </nav>
+
+      <div class="header-cta-desktop">
+        <a href="https://wa.me/447308438403?text=Hi%20MED%20Aesthetic%20Clinic,%20I'd%20like%20to%20enquire%20about%20booking%20a%20consultation." target="_blank" rel="noopener noreferrer" class="header-whatsapp-pill" aria-label="Chat on WhatsApp">
+          <span class="whatsapp-icon" aria-hidden="true">💬</span>
+          <span>WhatsApp</span>
+        </a>
+        <a href="tel:07308438403" class="header-phone">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>07308 438403</span>
+        </a>
+        <a href="#contact" class="btn btn-primary btn-sm">Book Consultation</a>
       </div>
-      <div class="hero-card" aria-hidden="true">
-        <div class="hero-card-inner">
-          <span class="chip">★ 5.0 on Treatwell</span>
-          <span class="big">Feel-good<br>skin care</span>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-texture" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow eyebrow-champagne">
+            <span class="eyebrow-bullet" aria-hidden="true"></span>
+            Non-Surgical Aesthetics · Brixton, London SW9
+          </div>
+          <h1>Skin care that feels as good as it looks</h1>
+          <p class="hero-lede">
+            Specialist facials and advanced skin therapies delivered by a dedicated team that truly listens. Relaxed, honest practitioner guidance — zero pressure, zero over-promising.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-champagne btn-lg">
+              Book your consultation
+            </a>
+            <a href="https://wa.me/447308438403?text=Hi%20MED%20Aesthetic%20Clinic,%20I'd%20like%20to%20enquire%20about%20booking%20a%20consultation." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+              <span class="whatsapp-bubble-icon" aria-hidden="true">💬</span>
+              <span>WhatsApp Direct</span>
+            </a>
+            <a href="tel:07308438403" class="btn btn-ghost-light btn-lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Call 07308 438403</span>
+            </a>
+          </div>
+          <div class="hero-trust-badges">
+            <div class="hero-badge-pill">
+              <span class="badge-status-dot" aria-hidden="true"></span>
+              Open 7 days · Mon–Fri 09:00–20:00 · Sat 09:30–18:00 · Sun 12:00–17:00
+            </div>
+            <div class="hero-rating-snippet">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <span><strong>5.0</strong> on Treatwell · Verified Clinic</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Structured Hero Treatment Card Collage -->
+        <div class="hero-card-composition" aria-label="Signature Clinical Treatment Architecture">
+          <div class="composition-card-frame">
+            <div class="arch-accent" aria-hidden="true"></div>
+            
+            <div class="composition-header">
+              <span class="comp-badge">CLINICAL SUITE 01 · BRIXTON</span>
+              <span class="comp-status"><span class="dot"></span> Consultations Available</span>
+            </div>
+
+            <div class="comp-main-card">
+              <div class="comp-eyebrow">SIGNATURE PROTOCOL</div>
+              <h3 class="comp-title">Hydra-Infusion &amp; Deep Radiance</h3>
+              <p class="comp-desc">Bespoke triple-action barrier recovery, enzyme peel &amp; deep sonic hydration.</p>
+              
+              <div class="comp-protocol-steps">
+                <div class="protocol-step">
+                  <span class="step-badge">01</span>
+                  <span class="step-name">Clarifying Cleanse</span>
+                </div>
+                <div class="protocol-step">
+                  <span class="step-badge">02</span>
+                  <span class="step-name">Enzymatic Renewal</span>
+                </div>
+                <div class="protocol-step">
+                  <span class="step-badge">03</span>
+                  <span class="step-name">Active Infusion</span>
+                </div>
+              </div>
+
+              <div class="comp-footer">
+                <div class="comp-meta">
+                  <span class="meta-label">Treatment Duration</span>
+                  <span class="meta-value">60 Minutes · No Downtime</span>
+                </div>
+                <div class="comp-pricing">
+                  <span class="meta-label">From</span>
+                  <span class="comp-price">£65 <span class="placeholder-badge">placeholder</span></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Proof Chip -->
+            <div class="floating-proof-chip">
+              <div class="proof-stars">★★★★★</div>
+              <div class="proof-copy">
+                <strong>Treatwell Verified</strong>
+                <span>100% Client Satisfaction</span>
+              </div>
+            </div>
+
+            <!-- Floating Stamp -->
+            <div class="floating-stamp">
+              <span class="stamp-icon">🌿</span>
+              <span>Bespoke Care · Brixton SW9</span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="bar">
-    <div class="container bar-inner">
-      <span>📍 Overton Road, London SW9 7AP</span>
-      <span>🕘 Mon–Fri 09:00–20:00 · Sat 09:30–18:00 · Sun 12:00–17:00</span>
-      <span>💬 Friendly, pressure-free consultations</span>
-    </div>
-  </section>
+    <!-- 2. TRUST BAR -->
+    <section class="trust-bar" aria-label="Clinic Credibility & Logistics">
+      <div class="container trust-inner">
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">★</div>
+          <div class="trust-text">
+            <strong>5.0 Treatwell Rating</strong>
+            <span>Verified client reviews in London</span>
+          </div>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">📍</div>
+          <div class="trust-text">
+            <strong>Overton Road, Brixton SW9</strong>
+            <span>10 min from Brixton Underground</span>
+          </div>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">🕘</div>
+          <div class="trust-text">
+            <strong>Open 7 Days a Week</strong>
+            <span>Late appointments until 20:00</span>
+          </div>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">🩺</div>
+          <div class="trust-text">
+            <strong>Honest Consultations</strong>
+            <span>Practitioner-led, no hard sell</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="services" class="section">
-    <div class="container">
-      <p class="eyebrow">Treatments</p>
-      <h2>What we offer</h2>
-      <p class="section-lede">A focused menu of skin-first treatments. Prices shown are indicative placeholders for this demo — confirm with the clinic.</p>
-      <div class="cards" id="serviceCards">
-        <!-- Populated by script.js from data-services.js (placeholder structure) -->
+    <!-- 3. TREATMENTS WITH PRICES & CATEGORY FILTERS -->
+    <section id="services" class="section section-services">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">CLINICAL TREATMENT MENU</p>
+          <h2>Tailored skin-first therapies</h2>
+          <p class="section-lede">
+            Every skin journey begins with an attentive assessment. Filter by your skin focus to explore our targeted treatment options.
+          </p>
+          <div class="demo-price-notice">
+            <span class="notice-icon" aria-hidden="true">ℹ️</span>
+            <span>Prices shown are indicative placeholders for this demo proposal. Confirm final menu directly with the clinic.</span>
+          </div>
+        </div>
+
+        <!-- Treatment Filter Tabs -->
+        <div class="filter-tabs" role="tablist" aria-label="Treatment categories">
+          <button class="filter-tab active" data-category="all" role="tab" aria-selected="true">All Treatments (4)</button>
+          <button class="filter-tab" data-category="facials" role="tab" aria-selected="false">Specialist Facials</button>
+          <button class="filter-tab" data-category="hydration" role="tab" aria-selected="false">Barrier &amp; Hydration</button>
+          <button class="filter-tab" data-category="peels" role="tab" aria-selected="false">Brightening &amp; Peels</button>
+        </div>
+
+        <div class="cards-grid" id="serviceCards">
+          <!-- Populated dynamically via script.js -->
+        </div>
+
+        <!-- Repeated Booking CTA 1 -->
+        <div class="cta-banner">
+          <div class="cta-banner-content">
+            <span class="eyebrow eyebrow-champagne">PERSONAL SKIN CONSULTATION</span>
+            <h3>Not sure which facial your skin needs?</h3>
+            <p>Our practitioners assess your skin type, hydration levels, and goals before recommending any treatment.</p>
+          </div>
+          <div class="cta-banner-action">
+            <a href="#contact" class="btn btn-champagne btn-lg">Book your consultation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW LEAD MAGNET: 30-SECOND SKIN ASSESSMENT WIDGET -->
+    <section id="skin-assessment" class="section section-quiz">
+      <div class="container">
+        <div class="quiz-container">
+          <div class="quiz-header">
+            <span class="eyebrow eyebrow-champagne">INTERACTIVE CLINICAL TOOL</span>
+            <h2>Find your ideal treatment in 30 seconds</h2>
+            <p>Answer two quick questions about your skin to discover your custom treatment match.</p>
+          </div>
+
+          <div class="quiz-interactive-grid">
+            <div class="quiz-questions">
+              <!-- Step 1: Goal -->
+              <div class="quiz-step">
+                <span class="quiz-step-tag">Step 01 · Primary Focus</span>
+                <label class="quiz-label">What would you most like to improve?</label>
+                <div class="quiz-options-group" id="quizGoalOptions">
+                  <button type="button" class="quiz-opt-btn active" data-goal="hydration">
+                    <span class="opt-icon">💧</span>
+                    <span class="opt-text">Deep Moisture &amp; Barrier Repair</span>
+                  </button>
+                  <button type="button" class="quiz-opt-btn" data-goal="glow">
+                    <span class="opt-icon">✨</span>
+                    <span class="opt-text">Radiance, Tone &amp; Glow</span>
+                  </button>
+                  <button type="button" class="quiz-opt-btn" data-goal="pores">
+                    <span class="opt-icon">🌿</span>
+                    <span class="opt-text">Congested Pores &amp; Extractions</span>
+                  </button>
+                  <button type="button" class="quiz-opt-btn" data-goal="allround">
+                    <span class="opt-icon">🌟</span>
+                    <span class="opt-text">Complete Balance &amp; Relaxation</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Step 2: Skin Feel -->
+              <div class="quiz-step">
+                <span class="quiz-step-tag">Step 02 · Skin Behavior</span>
+                <label class="quiz-label">How does your skin feel throughout the day?</label>
+                <div class="quiz-options-group" id="quizFeelOptions">
+                  <button type="button" class="quiz-opt-btn active" data-feel="dry">
+                    <span class="opt-icon">🏜️</span>
+                    <span class="opt-text">Tight, dull, or easily dehydrated</span>
+                  </button>
+                  <button type="button" class="quiz-opt-btn" data-feel="uneven">
+                    <span class="opt-icon">☀️</span>
+                    <span class="opt-text">Uneven tone or sun fatigue</span>
+                  </button>
+                  <button type="button" class="quiz-opt-btn" data-feel="oily">
+                    <span class="opt-icon">🫧</span>
+                    <span class="opt-text">Prone to shine or blemishes</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quiz Dynamic Result Box -->
+            <div class="quiz-result-card" id="quizResultCard">
+              <div class="result-header">
+                <span class="result-tag">RECOMMENDED PROTOCOL</span>
+                <span class="result-match-pill">98% Match</span>
+              </div>
+              <h3 class="result-title" id="quizResultTitle">Hydration Facial</h3>
+              <p class="result-reason" id="quizResultReason">
+                Specially designed to replenish depleted moisture reserves, rebuild natural barrier strength, and soothe skin tightness with gentle sonic infusion.
+              </p>
+              <div class="result-meta">
+                <div class="result-meta-item">
+                  <span class="meta-small">Session Length</span>
+                  <span class="meta-bold" id="quizResultDuration">50 Minutes</span>
+                </div>
+                <div class="result-meta-item">
+                  <span class="meta-small">Starting From</span>
+                  <span class="meta-bold" id="quizResultPrice">£50 <small class="placeholder-badge">placeholder</small></span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-champagne btn-block btn-quiz-apply" id="quizApplyBtn">
+                Select This Treatment &amp; Book
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. WHY US (3-4 BENEFITS + CLINICAL PEACE OF MIND STRIP) -->
+    <section id="why" class="section section-warm">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">THE MED AESTHETIC STANDARD</p>
+          <h2>The thoughtful details that set us apart</h2>
+          <p class="section-lede">We believe high-end clinical results should come with genuine warmth and absolute transparency.</p>
+        </div>
+
+        <div class="why-grid">
+          <article class="why-card">
+            <div class="why-icon-wrap">
+              <span class="why-num">01</span>
+              <span class="why-symbol">✦</span>
+            </div>
+            <h3>Relaxed &amp; Honest Guidance</h3>
+            <p>No high-pressure sales or unnecessary upgrades. We explain precisely what will benefit your skin barrier and what isn't necessary.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon-wrap">
+              <span class="why-num">02</span>
+              <span class="why-symbol">✦</span>
+            </div>
+            <h3>Experienced Practitioner Team</h3>
+            <p>Led by Gina and her expert clinic team, utilizing professional-grade protocols and clinical sanitation for dependable, glowing results.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon-wrap">
+              <span class="why-num">03</span>
+              <span class="why-symbol">✦</span>
+            </div>
+            <h3>Accessible Brixton Location</h3>
+            <p>Situated on Overton Road, just a short 10-minute walk from Brixton Station. Quiet, welcoming private clinic suites in South London.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon-wrap">
+              <span class="why-num">04</span>
+              <span class="why-symbol">✦</span>
+            </div>
+            <h3>7-Day Flexible Availability</h3>
+            <p>Convenient evening appointments until 20:00 on weekdays plus full weekend coverage, fitting seamlessly into busy London schedules.</p>
+          </article>
+        </div>
+
+        <!-- Clinical Peace-of-Mind Strip -->
+        <div class="peace-of-mind-strip">
+          <div class="peace-item">
+            <span class="peace-icon">🛡️</span>
+            <div>
+              <strong>Fully Insured &amp; CPD Trained</strong>
+              <span>Practitioner-led treatments</span>
+            </div>
+          </div>
+          <div class="peace-item">
+            <span class="peace-icon">🔬</span>
+            <div>
+              <strong>Medical-Grade Sanitisation</strong>
+              <span>Strict hygiene standards</span>
+            </div>
+          </div>
+          <div class="peace-item">
+            <span class="peace-icon">🌿</span>
+            <div>
+              <strong>Personalised Skin Check</strong>
+              <span>Tailored allergy &amp; skin review</span>
+            </div>
+          </div>
+          <div class="peace-item">
+            <span class="peace-icon">💬</span>
+            <div>
+              <strong>Zero-Pressure Ethos</strong>
+              <span>Honest advice you can trust</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. BEFORE/AFTER CLINICAL DOCUMENTATION GALLERY + INTERACTIVE COMPARISON SLIDER -->
+    <section id="gallery" class="section section-gallery">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">CLINICAL DOCUMENTATION</p>
+          <h2>Observed results &amp; skin journeys</h2>
+          <p class="section-lede">
+            Standardized clinical photographic records demonstrate skin response over time. Drag the interactive comparison slider below to inspect simulated progression.
+          </p>
+        </div>
+
+        <!-- Interactive Before/After Comparison Tool (Pure CSS/JS) -->
+        <div class="comparison-tool-wrap">
+          <div class="comparison-tool-header">
+            <div class="tool-tags">
+              <span class="comp-badge">INTERACTIVE COMPARISON</span>
+              <span class="comp-case-title">Hydra-Infusion &amp; Barrier Protocol · 30-Day Evaluation</span>
+            </div>
+            <span class="placeholder-badge">DEMO INTERACTIVE TOOL</span>
+          </div>
+
+          <div class="comparison-slider-stage" id="comparisonStage" aria-label="Interactive Before and After Comparison Slider">
+            <!-- After Visual Layer (Underneath) -->
+            <div class="comparison-layer layer-after">
+              <div class="layer-visual visual-after">
+                <div class="simulation-glow"></div>
+                <div class="layer-badge-tag tag-after">DAY 30 · RADIANT &amp; BALANCED</div>
+                <div class="layer-schematic-metrics">
+                  <span>+42% Moisture Reserve</span>
+                  <span>Refined Pore Texture</span>
+                  <span>Calmed Cellular Barrier</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Before Visual Layer (Clipped on top) -->
+            <div class="comparison-layer layer-before" id="layerBefore">
+              <div class="layer-visual visual-before">
+                <div class="layer-badge-tag tag-before">DAY 0 · BASELINE ASSESSMENT</div>
+                <div class="layer-schematic-metrics">
+                  <span>Depleted Hydration</span>
+                  <span>Surface Dryness &amp; Dullness</span>
+                  <span>Environmental Stress</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Draggable Divider Line with Branded Handle -->
+            <div class="comparison-handle" id="comparisonHandle" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" tabindex="0">
+              <div class="handle-line"></div>
+              <div class="handle-thumb" aria-hidden="true">
+                <span>⟷</span>
+              </div>
+              <div class="handle-hint">Slide to compare</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Static Clinical Case Cards -->
+        <div class="gallery-grid">
+          <div class="gallery-card">
+            <div class="gallery-media-placeholder">
+              <div class="placeholder-overlay">
+                <span class="protocol-chip">CASE PROTOCOL 01</span>
+                <span class="placeholder-caption">Standardized Clinic Lighting</span>
+                <span class="placeholder-badge">DEMO PLACEHOLDER</span>
+              </div>
+              <div class="placeholder-schematic">
+                <div class="schematic-split">
+                  <div class="split-side">
+                    <span class="split-label">BASELINE</span>
+                    <span class="split-sub">Day 0 · Barrier Dehydration</span>
+                  </div>
+                  <div class="split-divider"></div>
+                  <div class="split-side">
+                    <span class="split-label">DAY 30</span>
+                    <span class="split-sub">Post-Hydra Infusion Series</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-card-content">
+              <h3>Hydration &amp; Barrier Recovery</h3>
+              <p>Targeted restoration for depleted moisture reserves, uneven surface texture, and post-seasonal environmental redness.</p>
+              <div class="gallery-meta">
+                <span>Protocol: Signature Hydra Facial</span>
+                <span>Interval: 3 Sessions</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-media-placeholder">
+              <div class="placeholder-overlay">
+                <span class="protocol-chip">CASE PROTOCOL 02</span>
+                <span class="placeholder-caption">Targeted Pigment Mapping</span>
+                <span class="placeholder-badge">DEMO PLACEHOLDER</span>
+              </div>
+              <div class="placeholder-schematic">
+                <div class="schematic-split">
+                  <div class="split-side">
+                    <span class="split-label">BASELINE</span>
+                    <span class="split-sub">Dull Tone · Sun Congestion</span>
+                  </div>
+                  <div class="split-divider"></div>
+                  <div class="split-side">
+                    <span class="split-label">DAY 21</span>
+                    <span class="split-sub">Enzyme Brightening Cycle</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-card-content">
+              <h3>Tone &amp; Luminosity Renewal</h3>
+              <p>Gentle resurfacing to minimize surface hyperpigmentation and reveal refreshed, natural cellular radiance.</p>
+              <div class="gallery-meta">
+                <span>Protocol: Skin Brightening</span>
+                <span>Interval: 2 Sessions</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-media-placeholder">
+              <div class="placeholder-overlay">
+                <span class="protocol-chip">CASE PROTOCOL 03</span>
+                <span class="placeholder-caption">Pore Refinement Metric</span>
+                <span class="placeholder-badge">DEMO PLACEHOLDER</span>
+              </div>
+              <div class="placeholder-schematic">
+                <div class="schematic-split">
+                  <div class="split-side">
+                    <span class="split-label">BASELINE</span>
+                    <span class="split-sub">Blemish &amp; Oil Congestion</span>
+                  </div>
+                  <div class="split-divider"></div>
+                  <div class="split-side">
+                    <span class="split-label">DAY 14</span>
+                    <span class="split-sub">Clear Extraction &amp; Soothe</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-card-content">
+              <h3>Deep Clarifying &amp; Pore Health</h3>
+              <p>Specialist medical-grade extractions paired with anti-inflammatory calming masks for clean, calm pores.</p>
+              <div class="gallery-meta">
+                <span>Protocol: Advanced Facial</span>
+                <span>Interval: Targeted Cycle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeated Booking CTA 2 -->
+        <div class="gallery-cta">
+          <p>Ready to start your personalised skin programme?</p>
+          <a href="#contact" class="btn btn-outline btn-md">Book your consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. PROCESS (HOW IT WORKS) -->
+    <section id="process" class="section section-process">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">YOUR TREATMENT JOURNEY</p>
+          <h2>From first consultation to lasting glow</h2>
+          <p class="section-lede">We have streamlined every stage of your experience to ensure total relaxation and clinical peace of mind.</p>
+        </div>
+
+        <div class="process-steps">
+          <div class="step-card">
+            <div class="step-index">01</div>
+            <div class="step-body">
+              <h3>Enquire &amp; Schedule</h3>
+              <p>Reach out via phone, WhatsApp, or our online form. We accommodate your preferred schedule, including late evenings and weekends.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-index">02</div>
+            <div class="step-body">
+              <h3>In-Depth Skin Assessment</h3>
+              <p>Your practitioner evaluates your skin health, discussing current routine, sensitivities, and your realistic aesthetic targets.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-index">03</div>
+            <div class="step-body">
+              <h3>Bespoke In-Clinic Treatment</h3>
+              <p>Unwind in our tranquil Brixton clinic as our specialists administer your targeted facial with medical-grade equipment and active serums.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-index">04</div>
+            <div class="step-body">
+              <h3>Aftercare &amp; Ongoing Support</h3>
+              <p>You leave with clear aftercare steps, product recommendations, and follow-up guidance to maintain healthy skin radiance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. REVIEWS (REAL TREATWELL REVIEWS) -->
+    <section id="reviews" class="section section-warm">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">VERIFIED CLIENT REVIEWS</p>
+          <h2>What our clients say</h2>
+          <p class="section-lede">Real, unaltered client testimonials published on our official Treatwell page.</p>
+        </div>
+
+        <div class="reviews-grid" id="reviewCards">
+          <!-- Populated dynamically via script.js -->
+        </div>
+
+        <div class="treatwell-badge-row">
+          <div class="treatwell-pill">
+            <span class="stars">★★★★★</span>
+            <span>Rated <strong>5.0 / 5.0</strong> by verified clients on Treatwell</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. INSTAGRAM SHOWCASE ("AS SEEN ON INSTAGRAM") -->
+    <section id="instagram" class="section section-instagram">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">CLINICAL SUITE GLIMPSES</p>
+          <h2>Follow our journey on Instagram</h2>
+          <p class="section-lede">Get a closer look at our clinic space, real treatment reels, and daily skincare tips from Brixton.</p>
+        </div>
+
+        <div class="instagram-grid">
+          <div class="insta-tile">
+            <div class="insta-media">
+              <span class="insta-tag">@medaestheticclinicuk</span>
+              <div class="insta-center-icon">🌿</div>
+              <p class="insta-caption">Bespoke active serums prepared for our morning Hydra-Infusion sessions in Brixton.</p>
+            </div>
+            <div class="insta-footer">
+              <span>View Treatment Reel</span>
+              <span>♥ 142</span>
+            </div>
+          </div>
+
+          <div class="insta-tile">
+            <div class="insta-media">
+              <span class="insta-tag">@medaestheticclinicuk</span>
+              <div class="insta-center-icon">✨</div>
+              <p class="insta-caption">Post-treatment skin radiance check — healthy barrier, zero downtime.</p>
+            </div>
+            <div class="insta-footer">
+              <span>Client Glow Review</span>
+              <span>♥ 198</span>
+            </div>
+          </div>
+
+          <div class="insta-tile">
+            <div class="insta-media">
+              <span class="insta-tag">@medaestheticclinicuk</span>
+              <div class="insta-center-icon">🩺</div>
+              <p class="insta-caption">Quiet moments in treatment suite 01 on Overton Road before our evening appointments.</p>
+            </div>
+            <div class="insta-footer">
+              <span>Clinic Atmosphere</span>
+              <span>♥ 164</span>
+            </div>
+          </div>
+
+          <div class="insta-tile">
+            <div class="insta-media">
+              <span class="insta-tag">@medaestheticclinicuk</span>
+              <div class="insta-center-icon">💧</div>
+              <p class="insta-caption">Hydration tip: why sealing in hyaluronic acid matters as seasons shift in London.</p>
+            </div>
+            <div class="insta-footer">
+              <span>Practitioner Skincare Tips</span>
+              <span>♥ 215</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="instagram-cta-row">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-md">
+            <span>Follow @medaestheticclinicuk</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. FAQ -->
+    <section id="faq" class="section section-faq">
+      <div class="container narrow">
+        <div class="section-header">
+          <p class="eyebrow">FREQUENTLY ASKED QUESTIONS</p>
+          <h2>Good to know before your visit</h2>
+          <p class="section-lede">Everything you need to know about booking, appointments, and what to expect.</p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary class="faq-summary">
+              <span>Do I need a consultation before my treatment?</span>
+              <span class="faq-indicator" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes, for most treatments we recommend a brief initial skin consultation. This ensures we understand your skin history, active ingredients you may currently use, and design a protocol best matched to your barrier health.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-summary">
+              <span>How do I book an appointment?</span>
+              <span class="faq-indicator" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>You can call us directly on <a href="tel:07308438403"><strong>07308 438403</strong></a>, message us instantly on <a href="https://wa.me/447308438403?text=Hi%20MED%20Aesthetic%20Clinic,%20I'd%20like%20to%20enquire%20about%20booking%20a%20consultation." target="_blank" rel="noopener noreferrer"><strong>WhatsApp</strong></a>, email us at <a href="mailto:medaestheticclinicuk@gmail.com"><strong>medaestheticclinicuk@gmail.com</strong></a>, or submit the consultation request form below.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-summary">
+              <span>What should I do before arriving at my appointment?</span>
+              <span class="faq-indicator" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Please arrive with clean skin where feasible. Avoid strong chemical exfoliants (retinoids, AHA/BHA peels) for 48 hours prior to facial treatments, and let our practitioners know if you have any allergies or take prescription medication.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-summary">
+              <span>Do you offer evening or weekend appointments?</span>
+              <span class="faq-indicator" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes, we are open 7 days a week: Monday to Friday from 09:00 until 20:00, Saturday from 09:30 until 18:00, and Sunday from 12:00 until 17:00, making after-work and weekend bookings effortless.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-summary">
+              <span>Where in London is MED Aesthetic Clinic located?</span>
+              <span class="faq-indicator" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>We are situated on Overton Road, London SW9 7AP — approximately 10 minutes on foot from Brixton Underground Station (Victoria line) and Brixton National Rail Station.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. CONTACT & BOOKING WITH TIME-SLOT AND DAY PICKERS -->
+    <section id="contact" class="section section-contact">
+      <div class="contact-bg-pattern" aria-hidden="true"></div>
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <div class="eyebrow eyebrow-champagne">RESERVATIONS &amp; VISITS</div>
+          <h2>Book your consultation</h2>
+          <p class="contact-sub">
+            Speak directly with our team to arrange your bespoke skin session. We reply promptly to all messages, WhatsApp enquiries, and calls.
+          </p>
+
+          <div class="contact-details-list">
+            <div class="contact-detail-row">
+              <div class="contact-icon" aria-hidden="true">💬</div>
+              <div>
+                <span class="detail-label">Instant WhatsApp Booking</span>
+                <a href="https://wa.me/447308438403?text=Hi%20MED%20Aesthetic%20Clinic,%20I'd%20like%20to%20enquire%20about%20booking%20a%20consultation." target="_blank" rel="noopener noreferrer" class="detail-value contact-link">Chat on WhatsApp (07308 438403)</a>
+                <span class="detail-hint">Direct replies during clinic hours</span>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon" aria-hidden="true">📞</div>
+              <div>
+                <span class="detail-label">Direct Telephone</span>
+                <a href="tel:07308438403" class="detail-value contact-link">07308 438403</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon" aria-hidden="true">✉️</div>
+              <div>
+                <span class="detail-label">Email Enquiries</span>
+                <a href="mailto:medaestheticclinicuk@gmail.com" class="detail-value contact-link">medaestheticclinicuk@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon" aria-hidden="true">📍</div>
+              <div>
+                <span class="detail-label">Clinic Address</span>
+                <span class="detail-value">Overton Road, London SW9 7AP</span>
+                <span class="detail-hint">Approx. 10 minutes from Brixton Station</span>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon" aria-hidden="true">🕘</div>
+              <div>
+                <span class="detail-label">Clinic Hours</span>
+                <span class="detail-value">Mon–Fri 09:00–20:00</span>
+                <span class="detail-hint">Saturday 09:30–18:00 · Sunday 12:00–17:00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form id="bookingForm" class="contact-form" novalidate>
+            <h3 class="form-title">Request An Appointment</h3>
+            <p class="form-subtitle">Choose your preferred day and time window for a quick confirmation.</p>
+
+            <div class="form-group">
+              <label for="fName">Full Name *</label>
+              <input id="fName" name="name" type="text" required placeholder="e.g. Eleanor Vance">
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="fPhone">Phone Number *</label>
+                <input id="fPhone" name="phone" type="tel" required placeholder="07...">
+              </div>
+              <div class="form-group">
+                <label for="fEmail">Email Address</label>
+                <input id="fEmail" name="email" type="email" placeholder="you@example.co.uk">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="fTreatment">Treatment of Interest</label>
+              <select id="fTreatment" name="treatment">
+                <option value="General Consultation">General Skin Consultation</option>
+                <option value="Signature Facial">Signature Facial (from £65)</option>
+                <option value="Hydration Facial">Hydration Facial (from £50)</option>
+                <option value="Skin Brightening">Skin Brightening (from £70)</option>
+                <option value="Advanced Facial">Advanced Facial (from £85)</option>
+              </select>
+            </div>
+
+            <!-- Preferred Day Picker Pills -->
+            <div class="form-group">
+              <label>Preferred Day of Week</label>
+              <div class="slot-pills-group" id="dayPills">
+                <button type="button" class="slot-pill active" data-day="Mon-Wed">Mon–Wed</button>
+                <button type="button" class="slot-pill" data-day="Thu-Fri">Thu–Fri</button>
+                <button type="button" class="slot-pill" data-day="Saturday">Saturday</button>
+                <button type="button" class="slot-pill" data-day="Sunday">Sunday</button>
+              </div>
+            </div>
+
+            <!-- Preferred Time Slot Picker Pills -->
+            <div class="form-group">
+              <label>Preferred Time Window</label>
+              <div class="slot-pills-group" id="timePills">
+                <button type="button" class="slot-pill" data-time="Morning (09:00–12:00)">Morning (09–12)</button>
+                <button type="button" class="slot-pill" data-time="Afternoon (12:00–17:00)">Afternoon (12–17)</button>
+                <button type="button" class="slot-pill active" data-time="Evening (17:00–20:00)">Evening (17–20)</button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="fMsg">Skin Goals &amp; Specific Notes</label>
+              <textarea id="fMsg" name="message" rows="3" placeholder="e.g. Addressing dry patches and seeking a relaxing evening appointment."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-champagne btn-block btn-submit">
+              <span>Send Booking Request</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+
+            <div class="or-separator">
+              <span>OR FOR AN INSTANT REPLY</span>
+            </div>
+
+            <a href="https://wa.me/447308438403?text=Hi%20MED%20Aesthetic%20Clinic,%20I'd%20like%20to%20enquire%20about%20booking%20a%20consultation." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block">
+              <span class="whatsapp-bubble-icon" aria-hidden="true">💬</span>
+              <span>Message on WhatsApp Now</span>
+            </a>
+
+            <p class="form-note">Demo form — replace action with the clinic's email or booking tool.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <span class="brand-monogram">MA</span>
+        <div class="footer-brand-text">
+          <strong>MED Aesthetic Clinic UK</strong>
+          <span>Overton Road, Brixton, London SW9 7AP</span>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <a href="tel:07308438403" class="footer-link">07308 438403</a>
+        <span class="footer-sep">•</span>
+        <a href="https://wa.me/447308438403?text=Hi%20MED%20Aesthetic%20Clinic" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp</a>
+        <span class="footer-sep">•</span>
+        <a href="mailto:medaestheticclinicuk@gmail.com" class="footer-link">medaestheticclinicuk@gmail.com</a>
       </div>
     </div>
-  </section>
 
-  <section id="why" class="section section-tint">
-    <div class="container">
-      <p class="eyebrow">Why MED Aesthetic</p>
-      <h2>The little things add up</h2>
-      <div class="why-grid">
-        <div class="why-item"><h3>Relaxed &amp; honest</h3><p>No hard sell. We explain what your skin actually needs — and what it doesn't.</p></div>
-        <div class="why-item"><h3>Experienced team</h3><p>Led by Gina and her expert team, with a focus on professional care and consistent results.</p></div>
-        <div class="why-item"><h3>Easy to reach</h3><p>~10 minutes from Brixton station. Open 7 days a week, late into the evening.</p></div>
-        <div class="why-item"><h3>Booked in minutes</h3><p>Call or message — appointments confirmed quickly, reminders so you never miss one.</p></div>
+    <div class="container footer-bottom">
+      <div class="footer-demo">
+        ⚠️ UNOFFICIAL DEMO SITE — created with AI as a design proposal. Not affiliated with or approved by the clinic. Placeholder images and prices must be replaced before any use.
       </div>
     </div>
-  </section>
+  </footer>
 
-  <section id="process" class="section">
-    <div class="container">
-      <p class="eyebrow">How it works</p>
-      <h2>From first call to glow</h2>
-      <ol class="steps">
-        <li><span class="step-num">1</span><h3>Get in touch</h3><p>Call, message or use the form. We'll find a slot that suits you — evenings and weekends included.</p></li>
-        <li><span class="step-num">2</span><h3>Skin consultation</h3><p>A proper look at your skin and your goals, then an honest recommendation.</p></li>
-        <li><span class="step-num">3</span><h3>Your treatment</h3><p>Relax, get treated, and leave with clear aftercare advice.</p></li>
-        <li><span class="step-num">4</span><h3>Follow-up</h3><p>We check in after your visit and adjust your plan if needed.</p></li>
-      </ol>
+  <!-- Sticky Mobile Conversion Bar (Appears on scroll past hero) -->
+  <aside class="sticky-mobile-bar" id="stickyMobileBar" aria-label="Quick contact bar">
+    <div class="sticky-bar-inner">
+      <a href="https://wa.me/447308438403?text=Hi%20MED%20Aesthetic%20Clinic,%20I'd%20like%20to%20enquire%20about%20booking%20a%20consultation." target="_blank" rel="noopener noreferrer" class="btn-sticky btn-sticky-wa">
+        <span aria-hidden="true">💬</span>
+        <span>WhatsApp</span>
+      </a>
+      <a href="tel:07308438403" class="btn-sticky btn-sticky-call">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>Call</span>
+      </a>
+      <a href="#contact" class="btn-sticky btn-sticky-book">
+        <span>Book</span>
+      </a>
     </div>
-  </section>
+  </aside>
 
-  <section id="reviews" class="section section-tint">
-    <div class="container">
-      <p class="eyebrow">Reviews</p>
-      <h2>What clients say</h2>
-      <p class="section-lede">Real reviews currently public on the clinic's Treatwell page (kept as-is for this demo).</p>
-      <div class="reviews-grid" id="reviewCards">
-        <!-- Populated by script.js -->
-      </div>
-    </div>
-  </section>
-
-  <section id="faq" class="section">
-    <div class="container narrow">
-      <p class="eyebrow">FAQ</p>
-      <h2>Good to know</h2>
-      <details class="faq"><summary>Do I need a consultation before a treatment?</summary><p>For most treatments a consultation is recommended so we can check your skin and explain what to expect. Ask when booking.</p></details>
-      <details class="faq"><summary>How do I book?</summary><p>Call <a href="tel:07308438403">07308 438403</a>, email <a href="mailto:medaestheticclinicuk@gmail.com">medaestheticclinicuk@gmail.com</a>, or use the form below. Walk-ins may be available, but booking is safer.</p></details>
-      <details class="faq"><summary>What should I do before my appointment?</summary><p>Arrive with clean skin where possible, and let us know about any allergies, medications or recent treatments beforehand.</p></details>
-      <details class="faq"><summary>Do you offer evening or weekend appointments?</summary><p>Yes — we're open until 20:00 on weekdays and all day at the weekend.</p></details>
-    </div>
-  </section>
-
-  <section id="contact" class="section contact">
-    <div class="container contact-grid">
-      <div class="contact-info">
-        <p class="eyebrow">Contact</p>
-        <h2>Book your visit</h2>
-        <p>Call us, email us, or send the form — we reply fast.</p>
-        <p><a href="tel:07308438403" class="contact-line">📞 07308 438403</a></p>
-        <p><a href="mailto:medaestheticclinicuk@gmail.com" class="contact-line">✉️ medaestheticclinicuk@gmail.com</a></p>
-        <p class="contact-line">📍 Overton Road, London SW9 7AP (10 min from Brixton station)</p>
-        <p class="contact-line">🕘 Mon–Fri 09:00–20:00 · Sat 09:30–18:00 · Sun 12:00–17:00</p>
-      </div>
-      <form id="bookingForm" class="contact-form" novalidate>
-        <label for="fName">Name *</label>
-        <input id="fName" name="name" type="text" required placeholder="Your name">
-        <label for="fPhone">Phone *</label>
-        <input id="fPhone" name="phone" type="tel" required placeholder="07...">
-        <label for="fEmail">Email</label>
-        <input id="fEmail" name="email" type="email" placeholder="you@email.com">
-        <label for="fMsg">What would you like to book?</label>
-        <textarea id="fMsg" name="message" rows="4" placeholder="e.g. A facial — evenings or weekends are best for me"></textarea>
-        <button type="submit" class="btn btn-primary btn-block">Send booking request</button>
-        <p class="form-note">Demo form — replace action with the clinic's email or a booking tool.</p>
-      </form>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <p>MED Aesthetic Clinic UK · Overton Road, London SW9 7AP</p>
-    <p><a href="tel:07308438403">07308 438403</a> · <a href="mailto:medaestheticclinicuk@gmail.com">medaestheticclinicuk@gmail.com</a></p>
-  </div>
-  <p class="footer-demo">⚠️ UNOFFICIAL DEMO SITE — created with AI as a design proposal. Not affiliated with or approved by the clinic. Placeholder images and prices must be replaced before any use.</p>
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
